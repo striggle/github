@@ -19,7 +19,7 @@ public class Customer extends Person {
 
 	@Override
 	public String toString() {
-		return "Customer [customerNumber=" + customerNumber + "]";
+		return "Name: " + firstName + " " + lastName + "/n" + "customer number: " + customerNumber;
 	}
 
 }
